@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+html {
+    overflow-y: scroll;         /* to add the scrollbar to every page */
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    padding-bottom: 20px;
+
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.filter-by {
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ /* ------------------------------------------------------------------------
+    Recipe Panels
+    ------------------------------------------------------------------------- */
+
+.panel {
+    border: solid gold 1px;
+
+}
+
+.panel:hover {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(153,101,21, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(153,101,21, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(153,101,21, 0.67);
+}
+
+.recipe-item a {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+
+.recipe-panel {
+        min-height: 300px;
+}
+
+.panel-image {
+    width: 100%;
+}
+
+.list-group {
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-image {
+        padding-right: 0;
+}
+
+
+ol li {
+    text-align: left;
+    padding-left: 2px;
+    margin-left: 0;
+}
+
+
+.recipe-description {
+    text-align: left;
+    padding-left: 2px;
+    margin-left: 0;
+}
+
+footer {
+    background-color: #4f4f4f;
+    height: 60px;
+    margin: 60px -15px 0 -15px;
+    padding-bottom: 60px;
+}
+
+.footer-text {
+    color: #eee;
+}
+
+.glyphicon-heart {
+    color: red;
+}
+
+@media (max-width: 400px) {
+    .panel-recipe-header {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .btn-warning {
+        font-size: 10px;
+    }
+
+    .panel-comment {
+        font-size: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .panel-recipe-header {
+        font-size: 20px;
+    }
+
+    .btn-warning {
+        font-size: 12px;
+    }
+
+    .panel-comment {
+        font-size: 12px;
+    }
+}
